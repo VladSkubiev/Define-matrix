@@ -47,14 +47,7 @@ int main() {
         enter(a, n);
     }
 
-   /* cout << "Приводим к ступенчатому виду:\n";
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cout << a[i][j] << " ";
-        }
-        cout << "\n";
-    }
-    */
+
     cout << "\nМатрица в треугольном виде:\n\n";
     cout.precision(2);
     for (int i = 0; i < n; i++) {
